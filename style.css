@@ -6,7 +6,11 @@ h3 {
     text-align: center;
 }
 nav {
-    width: 25%;
+    text-align: center;
+}
+nav a {
+    padding-left: 30px;
+    padding-right: 30px;
 }
 body {
     background: #FFFFFF;
