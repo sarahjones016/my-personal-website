@@ -14,6 +14,25 @@ body {
     background: #FFFFFF;
     font-family: "Trebuchet MS";
 }
-.work-experience h4 {
-    font-style: italic;
+.projects div {
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+
+.projects h2 {
+    padding-top: 300px;
+}
+
+.projects img {
+    width: 300px;
+    height: 300px;
+}
+
+.work-experience h2 {
+    padding-top: 700px;
+}
+
+.contact h2 {
+    padding-top: 300px;
 }
