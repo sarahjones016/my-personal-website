@@ -4,7 +4,6 @@
 }
 
 h1 {
-    padding-top: 350px;
     font-size: 10em;
     line-height: 10%;
 }
@@ -47,10 +46,6 @@ body {
     width: 33.33%;
 }
 
-.projects h2 {
-    padding-top: 325px;
-}
-
 .projects img {
     width: 300px;
     height: 300px;
@@ -60,24 +55,36 @@ body {
     margin: 50px;
 }
 
-.experience h2 {
-    padding-top: 700px;
-}
-
 .contact {
-    margin: 50px;
+    background-color: #150050;
 }
 
 .contact h2 {
-    padding-top: 300px;
+    margin: 50px;
 }
 
 .contact h3 a {
+    margin: 50px;
     color: #FFFFFF;
     text-decoration: none;
 }
 
 .contact p a {
+    margin: 50px;
     color: #FFFFFF;
     text-decoration: none;
+}
+
+.space {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.large-space {
+    margin-top: 500px; 
+}
+
+.custom-space {
+    margin-top: 450px;
+    margin-bottom: 450px;
 }
