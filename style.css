@@ -37,7 +37,7 @@ h1 {
 
 body {
     background: #000000;
-    font-family: "Founders Grotesk Text";
+    font-family: "Graphik";
     width: 100%;
     height: 100%;
     margin: 0;
@@ -61,6 +61,10 @@ body {
 
 .experience {
     margin: 50px;
+}
+
+.experience h3 a {
+    text-decoration: none;
 }
 
 .contact {
