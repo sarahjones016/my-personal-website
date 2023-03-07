@@ -11,14 +11,18 @@ h1 {
 #navbar a {
     padding-left: 30px;
     padding-right: 30px;
-    color: #FFFFFF;
     text-decoration: none;
+    color: #FFFFFF;
+}
+
+#navbar a:hover {
+    color: #FB2576;
 }
 
 .homepage #navbar {
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: rgba(63, 0, 113, 0.75);
+    background-color: rgba(21, 0, 80, 0.75);
 }
 
 .sticky {
@@ -76,15 +80,35 @@ body {
 }
 
 .space {
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 100px;
 }
 
 .large-space {
-    margin-top: 500px; 
+    margin-top: 600px; 
 }
 
 .custom-space {
     margin-top: 450px;
     margin-bottom: 450px;
 }
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+img {
+    opacity: 1.0;
+  }
+  
+img:hover {
+    opacity: 0.5;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
