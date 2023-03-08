@@ -10,6 +10,7 @@ h1 {
 
 .homepage h3 {
     color: #0043FF;
+    letter-spacing: 2.2px;
 }
 
 #navbar a {
@@ -20,7 +21,7 @@ h1 {
 }
 
 #navbar a:hover {
-    color: #282828;
+    color: #000000;
 }
 
 .homepage #navbar {
@@ -45,7 +46,7 @@ body {
 }
 
 .projects {
-    margin: 50px;
+    margin: 80px;
 }
 
 .projects div {
@@ -54,13 +55,27 @@ body {
     width: 33.33%;
 }
 
+.projects div:nth-child(-4n + 5) {
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+
 .projects img {
     width: 300px;
     height: 300px;
+    opacity: 1.0;
+    transition: 0.5s all ease-in-out;
+}
+
+.projects img:hover {
+    opacity: 0.5;
+    transform: scale(1.10);
+
 }
 
 .experience {
-    margin: 50px;
+    margin: 80px;
 }
 
 .experience h3 a {
@@ -72,17 +87,17 @@ body {
 }
 
 .contact h2 {
-    margin: 50px;
+    margin: 80px;
 }
 
 .contact h3 a {
-    margin: 50px;
+    margin: 80px;
     color: #FFFFFF;
     text-decoration: none;
 }
 
 .contact p a {
-    margin: 50px;
+    margin: 80px;
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -93,7 +108,7 @@ body {
 }
 
 .large-space {
-    margin-top: 600px; 
+    margin-top: 1100px; 
 }
 
 .custom-space {
@@ -110,14 +125,10 @@ h3 {
     font-size: 1.5em;
 }
 
-img {
-    opacity: 1.0;
-  }
-  
-img:hover {
-    opacity: 0.5;
-  }
-
-  html {
+html {
     scroll-behavior: smooth;
-  }
+}
+
+.experience h4 {
+    font-style: italic;
+}
