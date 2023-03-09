@@ -132,3 +132,29 @@ html {
 .experience h4 {
     font-style: italic;
 }
+
+@media only screen and (max-width:400px) {
+    h1 {
+        font-size: 6em;
+        line-height: 100%;
+    }
+    .homepage {
+        text-align: center;
+    }
+
+    .projects div {
+        float: center;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .projects div:nth-child(-4n + 5) {
+        float: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .large-space {
+        margin-top: 2500px; 
+    }
+}
