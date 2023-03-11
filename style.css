@@ -2,159 +2,146 @@
     text-align: center;
     text-transform: uppercase;
 }
-
 h1 {
     font-size: 10em;
     line-height: 10%;
 }
-
 .homepage h3 {
     color: #0043FF;
     letter-spacing: 2.2px;
 }
-
 #navbar a {
     padding-left: 30px;
     padding-right: 30px;
     text-decoration: none;
     color: #FFFFFF;
 }
-
 #navbar a:hover {
     color: #000000;
 }
-
 .homepage #navbar {
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: rgba(0, 23, 255, 0.75);
 }
-
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
 }
-
 body {
     background: #000000;
     font-family: "Graphik";
     width: 100%;
     height: 100%;
-    margin: 0;
+    margin: 0px;
     color: #FFFFFF;
 }
-
-.projects {
-    margin: 80px;
+.projects,
+.experience,
+.contact h2,
+.contact h3 a, 
+.contact p a {
+    margin-left: 5%;
+    margin-right: 5%;
 }
-
 .projects div {
     float: left;
     text-align: center;
     width: 33.33%;
 }
-
 .projects div:nth-child(-4n + 5) {
     float: left;
     text-align: center;
-    width: 50%;
+    width: 55%;
 }
-
 .projects img {
     width: 300px;
     height: 300px;
     opacity: 1.0;
     transition: 0.5s all ease-in-out;
 }
-
 .projects img:hover {
     opacity: 0.5;
     transform: scale(1.10);
-
 }
-
-.experience {
-    margin: 80px;
-}
-
 .experience h3 a {
     text-decoration: none;
 }
-
 .contact {
     background-color: #1B02A4;
 }
-
-.contact h2 {
-    margin: 80px;
-}
-
 .contact h3 a {
-    margin: 80px;
     color: #FFFFFF;
     text-decoration: none;
 }
-
 .contact p a {
-    margin: 80px;
     color: #FFFFFF;
     text-decoration: none;
 }
-
 .space {
     margin-top: 200px;
     margin-bottom: 100px;
 }
-
 .large-space {
     margin-top: 1100px; 
 }
-
 .custom-space {
     margin-top: 450px;
     margin-bottom: 450px;
 }
-
 h2 {
     font-size: 3em;
     text-transform: uppercase;
 }
-
 h3 {
     font-size: 1.5em;
 }
-
 html {
     scroll-behavior: smooth;
 }
-
 .experience h4 {
     font-style: italic;
 }
 
-@media only screen and (max-width:400px) {
+@media all and (max-width: 480px) {
     h1 {
-        font-size: 6em;
-        line-height: 100%;
+        font-size: 5em;
+        line-height: 90%;
     }
-    .homepage {
-        text-align: center;
+    h2 {
+        font-size: 2em;
+        text-transform: uppercase;
     }
-
+    #navbar {
+        display: none;
+    }
+    .custom-space {
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
     .projects div {
         float: center;
         text-align: center;
         width: 100%;
     }
-    
     .projects div:nth-child(-4n + 5) {
         float: center;
         text-align: center;
         width: 100%;
     }
-
     .large-space {
-        margin-top: 2500px; 
+        margin-top: 2000px; 
+        margin-bottom: 2350px;
+    }
+}
+
+@media all and (max-width: 1145px) and (min-width: 481px) {
+    h1 {
+        line-height: 90%;
+    }
+    .projects img {
+        width: 250px;
+        height: 250px;
     }
 }
